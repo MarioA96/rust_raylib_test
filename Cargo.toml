@@ -1,0 +1,9 @@
+[package]
+name = "raylib_test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+futures = "0.3.31"
+raylib = { version = "5.5.1", features = [] }
+settimeout = "0.1.2"
